@@ -18,7 +18,7 @@ window.onload = () => {
       "El presidente",
       "Un elefante",
       "El portero",
-      "Roberta"
+      "Roberta",
     ];
     let que = ["quemó", "vendió", "estrelló", "se comió", "pintó", "voló"];
     let evitar = [
@@ -27,7 +27,7 @@ window.onload = () => {
       "el proyecto",
       "mi código",
       "todo mi sueldo",
-      "mi alma"
+      "mi alma",
     ];
     let cuando = [
       "el 3 de enero",
@@ -35,7 +35,7 @@ window.onload = () => {
       "durante la cena",
       "cuando estaba en el ascensor",
       "ayer",
-      "hace 10 años"
+      "hace 10 años",
     ];
 
     let aleatorioquien = Math.floor(Math.random() * quien.length);
@@ -54,3 +54,5 @@ window.onload = () => {
     );
   };
 };
+
+//este es el bueno
