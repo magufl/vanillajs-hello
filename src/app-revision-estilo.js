@@ -38,19 +38,19 @@ window.onload = () => {
       "hace 10 años"
     ];
 
-    let aleatorioquien = Math.floor(Math.random() * quien.length);
-    let aleatorioque = Math.floor(Math.random() * que.length);
-    let aleatorioevitar = Math.floor(Math.random() * evitar.length);
-    let aleatoriocuando = Math.floor(Math.random() * cuando.length);
+    let aleatorioQuien = Math.floor(Math.random() * quien.length);
+    let aleatorioQue = Math.floor(Math.random() * que.length);
+    let aleatorioEvitar = Math.floor(Math.random() * evitar.length);
+    let aleatorioCuando = Math.floor(Math.random() * cuando.length);
 
     return (
-      quien[aleatorioquien] +
+      quien[aleatorioQuien] +
       " " +
-      que[aleatorioque] +
+      que[aleatorioQue] +
       " " +
-      evitar[aleatorioevitar] +
+      evitar[aleatorioEvitar] +
       " " +
-      cuando[aleatoriocuando]
+      cuando[aleatorioCuando]
     );
   };
 };
